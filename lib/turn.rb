@@ -30,6 +30,6 @@ def display_board(board)
   puts " #{board[6]} | #{board[7]} | #{board[8]} "
 end
 
-def turn(input)
-  puts "Please enter 1-9: #{input}"
+def turn(board)
+  puts "Please enter 1-9:"
   end
