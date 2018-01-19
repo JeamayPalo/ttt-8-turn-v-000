@@ -36,8 +36,8 @@ def turn(board)
   input = input_to_index(input)
   if input.between?(0, 8) && valid_move?(board, input)
     move(board, input)
-  else 
+  else
     turn(board)
   end
-  
+
 end
