@@ -33,6 +33,6 @@ end
 def turn(board)
   puts "Please enter 1-9:"
   if input_to_index.between?(1, 9) && !valid_move?(board, index)
-    return board
+    display_board(board)
   end
 end
