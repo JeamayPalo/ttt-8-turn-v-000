@@ -35,6 +35,6 @@ def turn(board)
   input = gets.strip
   input = input_to_index(input)
   if input.between?(0, 8) && valid_move?(board, input)
-    move(board, index)
+    move(board, input)
   end
 end
