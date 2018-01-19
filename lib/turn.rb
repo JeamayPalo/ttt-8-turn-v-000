@@ -35,5 +35,5 @@ def turn(board)
   input = gets.strip
   input = input_to_index(input)
   if input_to_index(input).between?(1, 9) && !valid_move?(board, index)
-    return true 
+    return true
 end
